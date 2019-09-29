@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f1e07bc-ac1c-4843-9f03-97804449b8d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/去除文本文件末尾换行符/get.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/去除文本文件末尾换行符/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python-tools.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-tools.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/跳板转接/client-master.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/跳板转接/serv-end.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/跳板转接/serv-middle.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/模拟浏览器，爬取豆瓣图书搜索结果/1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/模拟浏览器，爬取豆瓣图书搜索结果/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/模拟浏览器，爬取豆瓣图书搜索结果/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬取豆瓣网，搜索同城活动结果数据.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/豆瓣图书分类爬虫/new-version-to-spider/spider/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/豆瓣图书分类爬虫/new-version-to-spider/spider/get_book_info.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/豆瓣图书分类爬虫/new-version-to-spider/spider/get_books.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/豆瓣图书分类爬虫/new-version-to-spider/spider/get_tags.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/豆瓣图书分类爬虫/new-version-to-spider/spider/start.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/豆瓣图书分类爬虫/old-version-to-print/get-tags.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/豆瓣图书分类爬虫/old-version-to-print/get_book_info.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/豆瓣图书分类爬虫/old-version-to-print/get_books.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/去除文本文件末尾换行符/get.txt" beforeDir="false" afterPath="$PROJECT_DIR$/去除文本文件末尾换行符/get.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +25,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Qxsvj3tp7IOR9xI7AbxDedStp9" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -63,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.client-master">
     <configuration name="爬取豆瓣网，搜索同城活动结果数据" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,6 +66,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬取豆瓣网，搜索同城活动结果数据.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="client-master" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/跳板转接" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/跳板转接/client-master.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -108,12 +118,62 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="serv-end" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/跳板转接" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/跳板转接/serv-end.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="serv-middle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/跳板转接" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/跳板转接/serv-middle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.爬取豆瓣网，搜索同城活动结果数据" />
       <item itemvalue="Python.main" />
+      <item itemvalue="Python.serv-middle" />
+      <item itemvalue="Python.client-master" />
+      <item itemvalue="Python.serv-end" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.client-master" />
+        <item itemvalue="Python.serv-end" />
+        <item itemvalue="Python.serv-middle" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.爬取豆瓣网，搜索同城活动结果数据" />
       </list>
@@ -135,7 +195,18 @@
       <workItem from="1568706188956" duration="7000" />
       <workItem from="1568723815058" duration="102000" />
       <workItem from="1568942417460" duration="1251000" />
+      <workItem from="1568943704618" duration="624000" />
+      <workItem from="1569669986714" duration="553000" />
+      <workItem from="1569767028015" duration="1566000" />
     </task>
+    <task id="LOCAL-00001" summary="文本">
+      <created>1568943723942</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568943723942</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,8 +225,15 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="文本" />
+    <option name="LAST_COMMIT_MESSAGE" value="文本" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_tools$main.coverage" NAME="main Coverage Results" MODIFIED="1568943587599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/去除文本文件末尾换行符" />
+    <SUITE FILE_PATH="coverage/python_tools$client_master.coverage" NAME="client-master Coverage Results" MODIFIED="1569768483152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/跳板转接" />
+    <SUITE FILE_PATH="coverage/python_tools$main.coverage" NAME="main Coverage Results" MODIFIED="1569670017948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/去除文本文件末尾换行符" />
     <SUITE FILE_PATH="coverage/python_tools$.coverage" NAME="爬取豆瓣网，搜索同城活动结果数据 Coverage Results" MODIFIED="1568942455528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_tools$serv_middle.coverage" NAME="serv-middle Coverage Results" MODIFIED="1569768398164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/跳板转接" />
+    <SUITE FILE_PATH="coverage/python_tools$serv_end.coverage" NAME="serv-end Coverage Results" MODIFIED="1569768480264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/跳板转接" />
   </component>
 </project>
