@@ -8,6 +8,8 @@ BUFSIZ = 1024
 ADDR = (HOST, PORT)
 tcpCliSock = socket(AF_INET, SOCK_STREAM) #创建socket对象
 tcpCliSock.connect(ADDR) #连接服务器
+
+print("输入exit()或不输入直接按回车，结束client运行。")
 while True:
     data = input('>>').strip()
     if not data:

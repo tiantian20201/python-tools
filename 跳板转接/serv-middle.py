@@ -21,17 +21,19 @@ tcpS = socket(AF_INET, SOCK_STREAM) # 创建socket对象
 tcpS.setsockopt(SOL_SOCKET,SO_REUSEADDR,1) #加入socket配置，重用ip和端口
 tcpS.bind(ADDR) # 绑定ip端口号
 tcpS.listen(SIZE)  # 设置最大链接数
+
+# client内置
+CHOST = '127.0.0.1'  # 服务端ip
+CPORT = 21565  # 服务端端口号
+# BUFSIZ = 1024 # 上面已经设置了
+CADDR = (CHOST, CPORT)
+tcpCliSock = socket(AF_INET, SOCK_STREAM)  # 创建socket对象
+
+
 while True:
     print("服务器serv-middle启动，监听客户端连接:")
     conn, addr = tcpS.accept()
     print("链接的客户端client-master：", addr)
-
-    # client内置
-    CHOST = '127.0.0.1'  # 服务端ip
-    CPORT = 21565  # 服务端端口号
-    BUFSIZ = 1024
-    CADDR = (CHOST, CPORT)
-    tcpCliSock = socket(AF_INET, SOCK_STREAM)  # 创建socket对象
     tcpCliSock.connect(CADDR)  # 连接serv-end服务器
 
     while True:
