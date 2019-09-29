@@ -24,7 +24,7 @@ tcpS.listen(SIZE)  # 设置最大链接数
 while True:
     print("服务器serv-end启动，监听客户端serv-middle连接:")
     conn, addr = tcpS.accept()
-    print("链接的客户端serv-middle", addr)
+    print("链接的客户端serv-middle:", addr)
     while True:
         try:
             data = conn.recv(BUFSIZ) # 读取已链接客户的发送的消息
@@ -34,7 +34,7 @@ while True:
             break
         cmd = data.decode(COD)
         if cmd == "exit()":
-            print("客户端serv-middle发送exit，断开连接\n\n")
+            print("客户端serv-middle发送exit()，断开连接\n\n")
             break
         if not data:
             print("客户端serv-middle发送为空，断开连接\n\n")

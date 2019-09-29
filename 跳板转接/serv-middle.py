@@ -2,12 +2,6 @@ from socket import *
 import time
 import os
 
-def execCmd(cmd):
-    r = os.popen(cmd)
-    text = r.read()
-    r.close()
-    return text
-
 
 
 # server
@@ -29,13 +23,12 @@ CPORT = 21565  # 服务端端口号
 CADDR = (CHOST, CPORT)
 tcpCliSock = socket(AF_INET, SOCK_STREAM)  # 创建socket对象
 
-
+# 为什么服务器middle这里不再打印内容了呢？？？
 while True:
     print("服务器serv-middle启动，监听客户端连接:")
-    conn, addr = tcpS.accept()
+    conn, addr = tcpS.accept() # 等待连接
     print("链接的客户端client-master：", addr)
     tcpCliSock.connect(CADDR)  # 连接serv-end服务器
-
     while True:
         try:
             data = conn.recv(BUFSIZ) # 读取已链接客户的发送的消息
