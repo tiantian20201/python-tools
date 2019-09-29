@@ -3,7 +3,7 @@
 from socket import *
 from time import ctime
 HOST = '127.0.0.1' #服务端ip
-PORT = 21566 #服务端端口号
+PORT = 21565 #服务端端口号
 BUFSIZ = 1024
 ADDR = (HOST, PORT)
 tcpCliSock = socket(AF_INET, SOCK_STREAM) #创建socket对象

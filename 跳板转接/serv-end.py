@@ -13,7 +13,7 @@ def execCmd(cmd):
 
 COD = 'utf-8'
 HOST = '127.0.0.1' # 主机ip
-PORT = 21566 # 软件端口号
+PORT = 21565 # 软件端口号
 BUFSIZ = 1024
 ADDR = (HOST, PORT)
 SIZE = 10
@@ -22,23 +22,22 @@ tcpS.setsockopt(SOL_SOCKET,SO_REUSEADDR,1) #加入socket配置，重用ip和端�
 tcpS.bind(ADDR) # 绑定ip端口号
 tcpS.listen(SIZE)  # 设置最大链接数
 while True:
-    print("服务器serv-end启动，监听客户端连接:")
+    print("服务器serv-end启动，监听客户端serv-middle连接:")
     conn, addr = tcpS.accept()
-    print("链接的客户端", addr)
+    print("链接的客户端serv-middle", addr)
     while True:
         try:
             data = conn.recv(BUFSIZ) # 读取已链接客户的发送的消息
         except Exception:
-            print("客户端断开连接：", addr)
+            print("客户端serv-middle断开连接：", addr)
             print("\n\n")
             break
         cmd = data.decode(COD)
-        if cmd != "exit()":
-            pass
-        else:
-            print("客户端发送exit，断开连接\n\n")
+        if cmd == "exit()":
+            print("客户端serv-middle发送exit，断开连接\n\n")
             break
         if not data:
+            print("客户端serv-middle发送为空，断开连接\n\n")
             break
         msg = time.strftime("%Y-%m-%d %X") #获取结构化事件戳
         print('[%s]:%s执行命令：%s' % (msg,addr,cmd))
