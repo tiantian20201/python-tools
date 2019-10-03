@@ -25,9 +25,9 @@ tcpCliSock = socket(AF_INET, SOCK_STREAM)  # 创建socket对象
 
 # 为什么服务器middle这里不再打印内容了呢？？？
 while True:
-    print("服务器serv-middle启动，监听客户端连接:")
-    conn, addr = tcpS.accept() # 等待连接
-    print("链接的客户端client-master：", addr)
+    print("服务器serv-middle启动，监听客户端client-master连接:")
+    conn, addr = tcpS.accept()
+    print("链接的客户端serv-middle:",addr)
     tcpCliSock.connect(CADDR)  # 连接serv-end服务器
     while True:
         try:
