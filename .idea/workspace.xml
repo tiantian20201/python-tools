@@ -2,12 +2,116 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f1e07bc-ac1c-4843-9f03-97804449b8d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/从word提取百度网盘链接和密码/get_href.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/从word提取百度网盘链接和密码/get_pw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/从word提取百度网盘链接和密码/hrefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/从word提取百度网盘链接和密码/pws" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/auto_get_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/hrefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/102-7shv_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/105-ief6_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/112-mvi3_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/122-t1zp_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/127-0p1k_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/132-cjzc_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/141-1p4i_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/149-ps75_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/15-rlzh_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/156-yevi_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/168-hk24_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/169-yf45_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/17-3xwn_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/170-08gb_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/171-rroe_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/172-5ksv_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/175-2af7_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/179-raml_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/18-rh3n_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/180-rb4v_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/183-mh4l_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/185-vg14_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/187-5yzp_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/201-fbxf_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/209-dxpq_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/22-yz4c_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/221-1gh5_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/222-28xv_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/223-ysos_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/227-yz1u_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/4-q0oh_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/46-rd6i_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/47-2b9r_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/48-jvyg_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/5-2zq6_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/55-v0my_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/57-f8wb_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/6-u5sv_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/62-5ysm_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/70-iqw2_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/84-0h4z_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/100-yzwh_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/101-eifl_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/103-ylx3_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/119-jzrz_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/120-u24g_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/121-hx3k_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/129-ieaj_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/137-fn4a_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/143-ruzm_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/145-8agq_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/147-u5kd_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/148-cx35_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/151-2887_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/154-j8wo_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/156-yevi_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/159-9xcx_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/16-uvbd_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/160-01tz_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/161-yf8g_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/162-ac6i_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/164-4eel_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/184-v183_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/189-oobp_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/190-myl9_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/195-w66k_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/196-sjnv_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/197-sayu_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/210-zwv1_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/214-kxiv_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/215-87ap_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/217-1cgk_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/218-u8o8_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/219-gdnd_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/220-lc68_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/24-5su8_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/25-twfh_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/26-9bwk_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/36-o6sj_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/38-kd63_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/40-aw4g_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/41-i0nn_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/42-rxbd_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/44-4gol_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/50-apan_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/54-su0r_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/58-07h4_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/59-4qnn_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/60-qi72_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/64-iicy_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/67-j7b4_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/68-ammw_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/7-v145_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/72-u9cr_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/89-uyee_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/90-czcw_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/91-objb_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/92-0n7n_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/93-3ih5_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/94-jm45_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/log_img/zip/99-zao3_not_dirs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/new.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/pws" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/百度网盘/tools/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/去除文本文件末尾换行符/get.txt" beforeDir="false" afterPath="$PROJECT_DIR$/去除文本文件末尾换行符/get.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/从word提取百度网盘链接和密码/get_href.py" beforeDir="false" afterPath="$PROJECT_DIR$/百度网盘/get_href.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/从word提取百度网盘链接和密码/get_pw.py" beforeDir="false" afterPath="$PROJECT_DIR$/百度网盘/get_pw.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,19 +134,21 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/从word提取百度网盘链接和密码" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/百度网盘" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\SE_projects\pyCharm\python-tools\从word提取百度网盘链接和密码" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\SE_projects\pyCharm\python-tools\从word提取百度网盘链接和密码" />
       <recent name="D:\SE_projects\pyCharm\python-tools\cookies格式化" />
       <recent name="D:\SE_projects\pyCharm\python-tools\去除文本文件末尾换行符" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SE_projects\pyCharm\python-tools\百度网盘" />
+      <recent name="D:\SE_projects\pyCharm\python-tools\从word提取百度网盘链接和密码" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -57,7 +163,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.get_pw">
+  <component name="RunManager" selected="Python.auto_get_file">
+    <configuration name="auto_get_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/百度网盘" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/百度网盘/auto_get_file.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="get_href" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,7 +252,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,12 +260,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/去除文本文件末尾换行符" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/百度网盘" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/去除文本文件末尾换行符/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/百度网盘/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,10 +276,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.auto_get_file" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.get_pw" />
         <item itemvalue="Python.get_href" />
         <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +310,8 @@
       <workItem from="1570089086909" duration="14000" />
       <workItem from="1570325023822" duration="573000" />
       <workItem from="1570935752288" duration="568000" />
-      <workItem from="1570982348132" duration="8919000" />
+      <workItem from="1570982348132" duration="9092000" />
+      <workItem from="1571017276175" duration="10702000" />
     </task>
     <task id="LOCAL-00001" summary="文本">
       <created>1568943723942</created>
@@ -225,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570069377474</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="网盘">
+      <created>1570992600150</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1570992600151</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,22 +382,26 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="文本" />
     <MESSAGE value="tcp执行cmd" />
     <MESSAGE value="跳板转接，执行cmd命令。1.0" />
     <MESSAGE value="跳板转接，执行cmd命令。1.1" />
     <MESSAGE value="跳板转接，执行cmd命令。1.2&#10;&#10;发现问题,serv-middle不再print消息了" />
     <MESSAGE value="cookies 格式化脚本" />
-    <option name="LAST_COMMIT_MESSAGE" value="cookies 格式化脚本" />
+    <MESSAGE value="网盘" />
+    <option name="LAST_COMMIT_MESSAGE" value="网盘" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_tools$client_master.coverage" NAME="client-master Coverage Results" MODIFIED="1569771591061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/跳板转接" />
     <SUITE FILE_PATH="coverage/python_tools$get_href.coverage" NAME="get_href Coverage Results" MODIFIED="1570988523459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/从word提取百度网盘链接和密码" />
+    <SUITE FILE_PATH="coverage/python_tools$auto_get_file.coverage" NAME="auto_get_file Coverage Results" MODIFIED="1571025859116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/百度网盘" />
     <SUITE FILE_PATH="coverage/python_tools$main.coverage" NAME="main Coverage Results" MODIFIED="1570936100576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/去除文本文件末尾换行符" />
     <SUITE FILE_PATH="coverage/python_tools$.coverage" NAME="爬取豆瓣网，搜索同城活动结果数据 Coverage Results" MODIFIED="1568942455528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_tools$get_pw.coverage" NAME="get_pw Coverage Results" MODIFIED="1570992197245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/从word提取百度网盘链接和密码" />
     <SUITE FILE_PATH="coverage/python_tools$serv_middle.coverage" NAME="serv-middle Coverage Results" MODIFIED="1569771584656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/跳板转接" />
     <SUITE FILE_PATH="coverage/python_tools$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1570985414955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/从word提取百度网盘链接和密码" />
     <SUITE FILE_PATH="coverage/python_tools$serv_end.coverage" NAME="serv-end Coverage Results" MODIFIED="1569771587968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/跳板转接" />
+    <SUITE FILE_PATH="coverage/python_tools$test.coverage" NAME="test Coverage Results" MODIFIED="1571025606031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/百度网盘" />
   </component>
 </project>
